@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^control?$ actions.php
+RewriteRule ^notforyou?$ blockedpage.php
+RewriteRule ^note/([^/\.]+)?$ url.php?uniqueid=$1

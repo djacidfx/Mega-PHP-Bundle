@@ -1,0 +1,24 @@
+Step 1 : Open Upload Folder and after that open setup.php file in any text editor like notepad++ , brackets etc.
+
+Step 2 : Change according to your need, specially line number 12 which is your website address . This is main line
+Example 
+
+define("BASE_URL" , "https://www.yourwebsite.com") ;
+
+//Change text only : This is your website domain name like https://www.yourwebsite.com
+
+// ****************** AD Setup ******************* 
+
+// 3 Types of Ads are available - 2 Desktop Ad & 1 Mobile Ad
+
+// Desktop Ad Size : 300 x 600 Pixel  ||   Mobile Ad Size : 300 x 50 Pixel
+
+// AD - 1 => Desktop Banner Ad (970 x 90 Pixel): Open ad_desktop_banner.php ==> Paste Google Ad Javascript Code in that file 
+
+// AD - 2 => Desktop Right Side Ad (300 x 600 Pixel): Open ad_desktop_rightside.php ==> Paste Google Ad Javascript Code in that file 
+
+// AD - 2 => Desktop Left Side Ad (300 x 600 Pixel): Open ad_desktop_leftside.php ==> Paste Google Ad Javascript Code in that file 
+
+// AD - 3 => Mobile Ad (300 x 50 Pixel ): Open ad_mobile.php ==> Paste Google Ad Javascript Code in that file 
+
+// Done

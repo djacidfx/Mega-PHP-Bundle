@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+    <title>Documentation</title>
+    <meta property="og:title" content="Documentation" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="css/custom.css" rel="stylesheet">
+</head>
+<body class="bg-dark" > 
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3"></div>        
+            <div class="col-lg-6 mt-5">
+                <div class="col-lg-12 text-white" ><h2>Open setup.php in any Text Editor Like Notepad++</h2></div>
+                <div class="card bg-dark newShadow text-center mt-3">
+                    <div class="card-header ">
+                        <h3 class="text-muted">1) Admin Name & Email Setup</h3>
+                    </div>
+                    <div class="card-body text-white">
+                        <p>Change Name & Email Only in Square Box</p>
+                        <p class="mt-2"><img src="img/1.png" class="img-fluid"></p>
+                    </div>
+                </div>
+                
+                <div class="card bg-dark newShadow text-center mt-3">
+                    <div class="card-header ">
+                        <h3 class="text-muted">2) Google Recaptcha V2 Setup</h3>
+                    </div>
+                    <div class="card-body text-white">
+                        <p>Login to Google Account. After that go to this link - <a href="https://www.google.com/recaptcha/admin/create" target="_blank">Google ReCaptcha Setup</a></p>
+                        <p>On Domains Field, It should be your domain name not localhost</p>
+                        <p class="mt-2"><img src="img/google1.png" class="img-fluid"></p>
+                        <p>After Creating, Save Secret &amp; Site Key at safe place. We will use in setup.php file to setup</p>
+                        <p class="mt-2"><img src="img/google2.png" class="img-fluid"></p>
+                        <p>Open setup.php , change line no. 22 (Site Key) & 25 (Secret Key) inside square box only.</p>
+                        <p class="mt-2"><img src="img/2.png" class="img-fluid"></p>
+                    </div>
+                </div>
+                
+                <div class="card bg-dark newShadow text-center mt-3">
+                    <div class="card-header ">
+                        <h3 class="text-muted">3) Paypal Setup</h3>
+                    </div>
+                    <div class="card-body text-white">
+                        
+                        <p>Open setup.php , change line no. 33 (Paypal Business Email).</p>
+                        <p>Your Success URL : <b class="text-warning">https://www.yourwebsite.com/success</b> &ensp;[Change url with yourwebsite address and do not put forward slash / at last after success word</p>
+                        <p>Login to your Paypal Business Account & Auto Return should be On after successful donation. <a href="https://www.paypal.com/businessmanage/preferences/website" target="_blank">Paypal Auto Return Link</a></p>
+                        <p class="mt-2"><img src="img/paypal_3.png" class="img-fluid"></p>
+                    </div>
+                </div>
+                
+                <div class="card bg-dark newShadow text-center mt-3">
+                    <div class="card-header ">
+                        <h3 class="text-muted">4) Other Setup</h3>
+                    </div>
+                    <div class="card-body text-white">
+                        <p>Now change according to your need. Like, Website URL, Meta Title, Meta Description , Minimum & Maximum Donation Amount, Name & Email Heading , Error Message in English or your language. But Note inside only in square box.</a></p>
+                        <p class="mt-2"><img src="img/4.png" class="img-fluid"></p>
+                        <p>Save setup.php and Upload on your Server. You are ready to go. All the Best. Many Thanks.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3"></div>
+        </div>
+    </div>
+    
+    <script src="js/jquery.min.js" ></script>
+    <script src="js/popper.min.js" ></script>
+    <script src="js/bootstrap.min.js"></script>	
+</body>

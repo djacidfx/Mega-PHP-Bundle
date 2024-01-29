@@ -1,0 +1,229 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Documentation</title>
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" id="banner">
+	<div class="container-fluid">
+	  <!-- Brand -->
+	  <a class="navbar-brand" href="index.html"><span> <img src="images/siteLogo.png" class="img-fluid" alt="Stipe Pay"></span></a>
+	
+	  <!-- Toggler/collapsibe Button -->
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	    <!-- Navbar links -->
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item dropdown">
+			  <a class="nav-link dropdown-toggle" href="#/" id="navbardrop" data-toggle="dropdown">
+				<i class="fa fa-user"></i> <b>Getting Started</b>
+			  </a>
+			  <div class="dropdown-menu ">
+				<a class="dropdown-item" href="#info"><i class="fa fa-hand-point-right"></i> Info</a>
+				<a class="dropdown-item" href="#overview"><i class="fa fa-hand-point-right"></i> Overview</a>
+				<a class="dropdown-item" href="#requirement"><i class="fa fa-hand-point-right"></i> Requirement</a>
+				<a class="dropdown-item" href="#features"><i class="fa fa-hand-point-right"></i> Features</a>
+				
+			  </div>
+			</li>
+			<li class="nav-item ">
+			  <a class="nav-link " href="#database" >
+				<i class="fa fa-user"></i> <b> Create Database(Only Demo)</b>
+			  </a>
+			</li>
+			<li class="nav-item ">
+			  <a class="nav-link " href="#configuration" >
+				<i class="fa fa-user"></i> <b> Configuration & Stripe Setup</b>
+			  </a>
+			</li>
+			
+			
+		</ul>
+		</div>
+	 </div>
+</nav>
+<div class="container mar-top">
+		
+		<div class="row">
+			<div class="col-lg-12 col-md-12">
+				<!-- Info -->
+			 	<div class="row">
+					<div class="col-md-12 col-lg-12 border border-default" id="info">
+						<h2>Info</h2>
+						<hr>
+						<h3>Stripe Pay for PHP Developer via Stripe V3</h3>
+						<br>
+						<p class="myFont"><b>Author :</b> CodeDaddy</p>
+						<p class="myFont"><b>Create Date :</b> September 18, 2020</p>
+						<p class="myFont"><b>Support :</b> <a href="mailto:yupokteam@gmail.com">yupokteam@gmail.com</a></p>
+					</div>
+					<!--Overview-->
+					<div class="col-md-12 col-lg-12 border border-default myDiv" id="overview">
+						<h2>Overview</h2>
+						<hr>
+						<p class="myFont">Stripe Pay for PHP Developer is very powerful tool to your Business. You can easily integrate Stripe Payment Gateway to your website.</p>
+						
+						<p class="myFont">You should have Basic Knowledge of Session and Insert SQL Query into Database.</p>
+						
+						<p class="myFont"><b>Security : </b>It is protected against SQL injection, XSS and other attack and your website will be safe.</p>
+					</div>
+					<!--Requirements-->
+					<div class="col-md-12 col-lg-12 border border-default myDiv" id="requirement">
+						<h2>Requirements</h2>
+						<hr>
+						<h5>Before starting to install, make sure you fulfill the following requirements:</h5>
+						<ul class="myFont">
+							<li>PHP Basic Knowledge</li>
+							<li>Knowledge of SQL Insert query to Database.</li>
+							<li>Stripe Account.</li>
+							<li>https Website</li>
+							<li>You can use this script on any live LINUX or PHP server or Localhost.</li>
+							<li>On Localhost - Only Testing Mode is working</li>
+							<li>Required PHP version in server >= 5.4.</li>
+						</ul>
+					</div>
+					<!--Features-->
+					<div class="col-md-12 col-lg-12 border border-default myDiv" id="features">
+						<h2>Features</h2>
+						<hr>
+						<ul class="myFont">
+									<li>Integrate Stripe Payment into Existing Website.</li>
+									<li>Pass Dynamic Item Name</li>
+									<li>Pass Dynamic Item ID</li>
+									<li>Pass User Name</li>
+									<li>Pass User Email</li>
+									<li>Pass Website Logo</li>
+									<li>Pass Homepage Link after Successful Payment</li>
+									<li>Well Comments Provide what & where to do.</li>
+									<li>Insert Payment Query into Database Example</li>
+									<li>Well Comment to Link your Database File on Payment Page</li>
+						</ul>
+					</div>
+					
+					<!--Create Database-->
+					<div class="col-md-12 col-lg-12 border border-default myDiv" id="database">
+						<h2>How to Create Database, Username, Password & Import SQL file? (It's Only a Demo)</h2>
+						<hr>
+						<ul class="myFont">
+							<li>Step 1: Login to your website CPanel with your Username & Password.</li>
+							<br>
+							<li><img src="images/cpanel_login.png" class="w-100 img-fluid"  ></li>
+							<br>
+							<li>Step 2: On Homepage, Scroll Down to <b>Databases</b> & Click on <b>MYSQL Databases</b> option.</li>
+							<br>
+							<li><img src="images/cpanel.png" class="w-100 img-fluid"  ></li>
+							<br>
+							<li>Step 3: Create New Database, Just assume (This is Only Demo Purpose) we want to give name of Our Database is <b>billing_system</b> So Just write <b>billing_system</b> & press Create Database Button.</li>
+							<br>
+							<li><img src="images/cpanel2.png" class="w-100 img-fluid"  ></li>
+							<br>
+							<li>Step 4: A message appears, Added the database <b>"yupok_billing_system"</b> It means <b>Your Database Name : yupok_billing_system</b> , Note : yupok_ prefix is demo, your website automatic added Prefix to your database name.So copy that name that is your Original Database Name.</li>
+							<br>
+							<li><img src="images/cpanel3.png" class="w-100 img-fluid"  ></li>
+							<br>
+							<li>Step 5: Press Go Back and return to Database Page again.</li>
+							<br>
+							<li>Step 6: Scroll Down the Page, MYSQL Users Add New User, Just fill the details like you want to use Username & Password & keep details in the safe place & Press Create User button.</li>
+							<br>
+							<li><img src="images/cpanel4.png" class="w-100 img-fluid"  ></li>
+							<br>
+							<li>Step 7: A message appears, You have successfully created a MySQL user named "yupok_demo_user". It means <b>Your Database USERName : yupok_demo_user</b> , Note : yupok_ prefix is demo, your website automatic added Prefix to your Username.So copy that name that is your Original Database Username.</li>
+							<br>
+							<li>Step 8: Press Go Back and return to Database Page again.</li>
+							<br>
+							<li>Step 9: Scroll Down the Page again to <b>Add User to Database</b> . Select your Last Created Username & Last Created Database for this billing system & Press Add Button. </li>
+							<br>
+							<li><img src="images/cpanel6.png" class="w-100 img-fluid"  ></li>
+							<br>
+							<li>Step 10: You will redirect to Another Page. Click on <b>ALL PRIVILEGES</b> option, Scroll down & Press Make Changes Button. </li>
+							<br>
+							<li><img src="images/cpanel7.png" class="w-100 img-fluid"  ></li>
+							<br>
+							<li><img src="images/cpanel8.png" class="w-100 img-fluid"  ></li>
+							<br>
+							<li>Step 11: A Success message appears on top right corner. After that scroll down to the page and press Go Back</li>
+							<br>
+							<li><img src="images/cpanel9.png" class="w-100 img-fluid"  ></li>
+							<br>
+							<li>Step 12: Example 
+							<br>
+							<b>YOUR_HOST_NAME : localhost</b> &ensp;Mostly its localhost but if not then contact your website service provide.
+							<br>
+							<b>YOUR_DATABASE_NAME : yupok_billing_system</b> &ensp;This is demo which we explained above. Your real database name is different.
+							<br>
+							<b>YOUR_DATABASE_USERNAME : yupok_demo_user</b> &ensp;This is demo which we explained above. Your real database username is different.
+							<br>
+							<b>YOUR_DATABASE_Password : password</b> &ensp;That is explained in Step 6.
+							<br>
+							<li>Step 13: <b>Import sql file to Database.</b> Go to CPanel homepage scroll down to Database , Click on phpMyAdmin, your database will be open.</li>
+							<br>
+							<li>Step 14: <b>On the left sidebar your Newly Database Option will be shown Just click on that. </b></li>
+							<br>
+							<li>Step 15: <b>After click see on right side there is Import Option click on that and browse & select sql file from your downloaded database folder and press Go Button on the bottom.</b></li>
+							<br>
+							<li><img src="images/cpanel10.png" class="w-100 img-fluid"  ></li>
+							<br>
+							<li>Step 16: <b>Your database will be imported and your website is ready to Use.</b></li>
+							
+							
+							
+							
+						</ul>
+					</div>
+					<!--Configuration-->
+					<div class="col-md-12 col-lg-12 border border-default myDiv" id="configuration">
+						<h2>Configuration & Stripe Setup</h2>
+						<hr>
+						<h5>Do Carefully Otherwise Script will not work</h5>
+						<hr>
+						<ul class="myFont">
+							<li>Unzip the Downloaded File, Go to <b>upload</b> Open <b>payments.php</b> File in any Text Editor like Notepad++, Dreamweaver , etc.</li>
+							<br>
+							<li><img src="images/adminfolder.png" class="w-100 img-responsive" ></li>
+							<br>
+							<li><img src="images/details.png" class="w-100 img-responsive" ></li>
+							
+							
+							<br>
+							<li>Now Go to jsStripe Folder and Open errorMsg.js file</li>
+							<br>
+							<li><img src="images/dbfolder.png" class="w-100 img-responsive" ></li>
+							<br>
+							<li>Open <b>errorMsg.js</b> File. Go to Line No. 9 & Change inside single inverted comma '' with Your Stripe Publishable Key. Otherwise Script won't work.</li>
+							<li><img src="images/configfile.png" class="w-100 img-responsive" ></li>
+							<br>
+							<li> How to get Stripe Secret & Publishable Key. - Login to your Stripe Account and Go to Developers->API Keys <a href="https://dashboard.stripe.com/apikeys" target="_blank">Stripe API Keys</a></li>
+							<br>
+							<li><img src="images/stripe.png" class="w-100 img-responsive" ></li>
+							<br>
+							<li> Open stripePay.php file & Pass all the Item Data. </li>
+							<br>
+							<li><img src="images/unzip.png" class="w-100 img-responsive" ></li>
+							<br>
+							<li>Note : On payments.php there is a comment near line 90 //SQL Query remove that line and insert payment into your database accroding to your need. We have passed all the things, Item Id, Item Name, User name, User Email, Amount, Transaction ID, Date everything.
+							<br>
+							<li>Upload All folder and file and its Done.</li>
+						</ul>
+					</div>
+					
+					<!--copyright footer-->
+					<div class="col-md-12 col-lg-12 border border-default myDiv">
+						<h4>Copyright &#xA9; CodeDaddy</h4>
+						<hr>
+						<h5 class="myFont">You are not allowed to use this documentation template for your personal or commercial or any other purposes.</h5>
+					</div>
+				</div>
+				<!--End-->
+			</div>
+		</div>
+</div>
+<script type="text/javascript" src="js/jquery-3.5.0.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>

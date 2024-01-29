@@ -1,0 +1,15 @@
+
+
+Step 1 : Go to Upload folder and upload locked.php on your server or root directory or subroot directory.
+
+Step 2 : Open locked.php and set up according to your need . Inside this page all the instructions are well commented.
+
+Step 3 : Now lock any php page via like this
+
+Example : Suppose you want to lock a page name index.php in your root directory and you have above steps then copy and paste below code on very first line
+
+<?php
+include("locked.php") ;
+?>
+
+Step 4 : Done

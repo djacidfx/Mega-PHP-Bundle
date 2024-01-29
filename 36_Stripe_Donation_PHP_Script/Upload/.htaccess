@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteRule ^control?$ action.php
+RewriteRule ^pk?$ stripe_pk.php
+RewriteRule ^donation?$ accept_donation.php

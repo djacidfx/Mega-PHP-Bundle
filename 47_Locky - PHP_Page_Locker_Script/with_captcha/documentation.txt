@@ -1,0 +1,31 @@
+For this script, Please make sure GD Library has been enabled on your server for creating Captcha Image.
+
+How to check for GD Library on your server ?
+Open notepad++ or brackets or any text editor
+==>Create a file info.php
+==>Open info.php and paste below code
+
+<?php
+phpinfo();
+?>
+
+==> Save & Upload to your server
+==> Open link for info.php , for example : https://www.yourwebsite.com/info.php
+==> Press CTRL+F to open search bar in a page
+==> Type GD
+==> If you see GD, It means GD Library has been enabled on your server.
+==> Now delete info.php from your server and do below steps to upload this script.
+
+Step 1 : Go to Upload folder and upload all the 3 files i.e. captcha.php , lockcaptcha.php and Merriweather.ttf files on your server or root directory or subroot directory.
+
+Step 2 : Open lockcaptcha.php and set up according to your need . Inside this page all the instructions are well commented.
+
+Step 3 : Now lock any php page via like this
+
+Example : Suppose you want to lock a page name index.php in your root directory and you have above steps then copy and paste below code on very first line
+
+<?php
+include("lockcaptcha.php") ;
+?>
+
+Step 4 : Done

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+    <title>Documentation</title>
+    <meta property="og:title" content="Documentation" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="css/custom.css" rel="stylesheet">
+</head>
+<body class="bg-dark" > 
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2"></div>        
+            <div class="col-lg-8 mt-5">
+                
+                <div class="col-lg-12 text-white" ><h2>How to setup database file ? This is only a Demo</h2></div>
+                <div class="card bg-dark newShadow text-start mt-3">
+                    <div class="card-header text-white">
+                        <div class="col-md-12 col-lg-12" id="database">
+						<h2>Create Database, Username, Password & Import SQL file.</h2>
+						<hr>
+						<ul class="myFont">
+							<li>Step 1: Login to your website CPanel with your Username & Password.</li>
+							<br>
+							<li><img src="img/cpanel_login.png" class="w-100 img-fluid"  ></li>
+							<br>
+							<li>Step 2: On Homepage, Scroll Down to <b>Databases</b> & Click on <b>MYSQL Databases</b> option.</li>
+							<br>
+							<li><img src="img/cpanel.png" class="w-100 img-fluid"  ></li>
+							<br>
+							<li>Step 3: Create New Database, Just write <b>billing_system</b> & press Create Database Button.</li>
+							<br>
+							<li><img src="img/cpanel2.png" class="w-100 img-fluid"  ></li>
+							<br>
+							<li>Step 4: A message appears, Added the database <b>"yupok_billing_system"</b> It means <b>Your Database Name : yupok_billing_system</b> , Note : yupok_ prefix is demo, your website automatic added Prefix to your database name.So copy that name that is your Original Database Name.</li>
+							<br>
+							<li><img src="img/cpanel3.png" class="w-100 img-fluid"  ></li>
+							<br>
+							<li>Step 5: Press Go Back and return to Database Page again.</li>
+							<br>
+							<li>Step 6: Scroll Down the Page, MYSQL Users Add New User, Just fill the details like you want to use Username & Password & keep details in the safe place & Press Create User button.</li>
+							<br>
+							<li><img src="img/cpanel4.png" class="w-100 img-fluid"  ></li>
+							<br>
+							<li>Step 7: A message appears, You have successfully created a MySQL user named "yupok_demo_user". It means <b>Your Database USERName : yupok_demo_user</b> , Note : yupok_ prefix is demo, your website automatic added Prefix to your Username.So copy that name that is your Original Database Username.</li>
+							<br>
+							<li>Step 8: Press Go Back and return to Database Page again.</li>
+							<br>
+							<li>Step 9: Scroll Down the Page again to <b>Add User to Database</b> . Select your Last Created Username & Last Created Database for this billing system & Press Add Button. </li>
+							<br>
+							<li><img src="img/cpanel6.png" class="w-100 img-fluid"  ></li>
+							<br>
+							<li>Step 10: You will redirect to Another Page. Click on <b>ALL PRIVILEGES</b> option, Scroll down & Press Make Changes Button. </li>
+							<br>
+							<li><img src="img/cpanel7.png" class="w-100 img-fluid"  ></li>
+							<br>
+							<li><img src="img/cpanel8.png" class="w-100 img-fluid"  ></li>
+							<br>
+							<li>Step 11: A Success message appears on top right corner. After that scroll down to the page and press Go Back</li>
+							<br>
+							<li><img src="img/cpanel9.png" class="w-100 img-fluid"  ></li>
+							<br>
+							<li>Step 12: Example 
+							<br>
+							<b>YOUR_HOST_NAME : localhost</b> &ensp;Mostly its localhost but if not then contact your website service provide.
+							<br>
+							<b>YOUR_DATABASE_NAME : yupok_billing_system</b> &ensp;This is demo which we explained above. Your real database name is different.
+							<br>
+							<b>YOUR_DATABASE_USERNAME : yupok_demo_user</b> &ensp;This is demo which we explained above. Your real database username is different.
+							<br>
+							<b>YOUR_DATABASE_Password : password</b> &ensp;That is explained in Step 6.
+							<br>
+							<li>Step 13: <b>Import sql file to Database.</b> Go to CPanel homepage scroll down to Database , Click on phpMyAdmin, your database will be open.</li>
+							<br>
+							<li>Step 14: <b>On the left sidebar your Newly Database Option will be shown Just click on that. </b></li>
+							<br>
+							<li>Step 15: <b>After click see on right side there is Import Option click on that and browse & select sql file from your downloaded database folder and press Go Button on the bottom.</b></li>
+							<br>
+							<li><img src="img/cpanel10.png" class="w-100 img-fluid"  ></li>
+							<br>
+							<li>Step 16: <b>Your database will be imported and your website is ready to Use.</b></li>
+						</ul>
+					</div>
+                    </div>
+                    
+                </div>
+                
+                
+                
+                <div class="col-lg-12 text-white mt-5" ><h2>Open Upload Folder, then open config folder ,then open db.php in any Text Editor Like Notepad++</h2></div>
+                <div class="card bg-dark newShadow text-center mt-3">
+                    <div class="card-header ">
+                        <h3 class="text-muted">1) Change your Database Details Carefully.</h3>
+                    </div>
+                    <div class="card-body text-white">
+                        <p class="mt-2"><img src="img/1.png" class="img-fluid"></p>
+                    </div>
+                </div>
+                
+                <div class="card bg-dark newShadow text-center mt-3">
+                    <div class="card-header ">
+                        <h3 class="text-muted">2) Google Recaptcha V2 Setup</h3>
+                    </div>
+                    <div class="card-body text-white">
+                        <p>Login to Google Account. After that go to this link - <a href="https://www.google.com/recaptcha/admin/create" target="_blank">Google ReCaptcha Setup</a></p>
+                        <p>On Domains Field, It should be your domain name not localhost</p>
+                        <p class="mt-2"><img src="img/google1.png" class="img-fluid"></p>
+                        <p>After Creating, Save Secret &amp; Site Key at safe place. We will use in db.php file to setup</p>
+                        <p class="mt-2"><img src="img/google2.png" class="img-fluid"></p>
+                        <p>Open db.php, scroll down after database , change Site Key & Secret Key inside square box only.</p>
+                        <p class="mt-2"><img src="img/2.png" class="img-fluid"></p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-12 text-white mt-2" ><h2>Website Base URL setup</h2></div>
+                <div class="card bg-dark newShadow text-center mt-3">
+                    <div class="card-header ">
+                        <h3 class="text-muted">3) Open db.php, scroll down after google setup. Define Your Website Address Properly.</h3>
+                    </div>
+                    <div class="card-body text-white">
+                        <p class="mt-2"><img src="img/3.png" class="img-fluid"></p>
+                    </div>
+                </div>
+                
+                 <div class="card bg-dark newShadow text-start mt-5">
+                    <div class="card-header text-white">
+                        <div class="col-md-12 col-lg-12 border border-default myDiv p-3" id="firsttimeadminlogin">
+                            <h2>First Time Admin Login</h2>
+                            <hr>
+                            <ul class="myFont">
+                                <li>Assume you make a folder on your server <b>secrets</b> and upload all copied files with correct database configuration.</li>
+                                <li>URL for Admin : <b class="text-warning"> yourwebsite.com/secrets/boss/ </b></li>
+                                <li>Assume you don't make any folder and upload it into root directory i.e. www or public html folder on your server and upload all copied files with correct database configuration.</li>
+                                <li>URL for Admin : <b class="text-warning"> yourwebsite.com/boss/ </b></li>
+                                <li>Default <b class="text-warning">Email : admin@admin.com  & Password : 123456</b></li>
+                                <li>Click on Settings => Scroll Down to Last => Update Your Login Email & Password.</li>
+                                <li>Old Password = <b class="text-warning">123456</b> => Set New Password & Keep in Safe Place</li>
+                            </ul>
+                        </div>
+                     </div>
+                </div>
+                
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+    </div>
+    
+    <script src="js/jquery.min.js" ></script>
+    <script src="js/popper.min.js" ></script>
+    <script src="js/bootstrap.min.js"></script>	
+</body>

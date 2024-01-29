@@ -1,0 +1,22 @@
+RewriteEngine On
+RewriteRule ^sitemap\.xml/?$ sitemap.php
+RewriteRule ^control?$ actions.php
+RewriteRule ^upload?$ zip_upload.php
+RewriteRule ^make_zip?$ userupload.php
+RewriteRule ^notforyou?$ blockedpage.php
+RewriteRule ^category/([^/\.]+)?$ file_categorized.php?slug=$1
+RewriteRule ^zip/([^/\.]+)?$ page_zip.php?slug=$1
+RewriteRule ^page/([^/\.]+)?$ admin_pages.php?slug=$1
+RewriteRule ^blog/([^/\.]+)?$ admin_blogs.php?slug=$1
+RewriteRule ^download?$ user_get_file.php
+RewriteRule ^grabcategoryfiles?$ getmore_category_files.php
+RewriteRule ^indexfiles?$ getmore_index_files.php
+RewriteRule ^search?$ usersearch.php
+RewriteRule ^find?$ query.php
+RewriteRule ^u_search?$ grab_more_search.php
+RewriteRule ^featured?$ files_featured.php
+RewriteRule ^more_featured?$ getmore_featured_files.php
+RewriteRule ^popular?$ files_popular.php
+RewriteRule ^fetch_popular?$ getmore_popular_files.php
+RewriteRule ^rss?$ files_blogs.php
+RewriteRule ^fetch_rss?$ getmore_blogs.php

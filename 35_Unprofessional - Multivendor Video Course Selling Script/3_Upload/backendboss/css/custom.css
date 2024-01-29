@@ -1,0 +1,76 @@
+.textareaMedium {
+    height: 64px !important ;
+}
+.textareaLarge {
+    height: 100px !important ;
+}
+.textareaVeryLarge {
+    height: 290px !important ;
+}
+.step2 {
+    display: none;
+}
+.step3 {
+    display: none;
+}
+.thumbprogress {
+    display:none;
+}
+table.dataTable td {
+   border-bottom: 1px solid #f6f6f6 !important;
+}
+.roundBadge {
+    border-radius: 50%;
+    width: 20px !important;
+    height: 20px !important;
+}
+.roundBadge b {
+  margin: -1px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  margin-left: 0.9rem !important
+}
+.priceBig {
+    font-weight: bold;
+    font-size: 80px !important;
+}
+.minH {
+    min-height: 300px !important ;
+}
+.textareaMedium {
+    height: 64px !important ;
+}
+.textareaLarge {
+    height: 100px !important ;
+}
+.badgesImgSize{
+    width : 50px !important ;
+}
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+.fa-lg {
+    font-size: 25px;
+}
+
+.btn-group-xs > .btn, .btn-xs {
+  padding: .25rem .4rem;
+  line-height: .5;
+  border-radius: .2rem;
+}
+.myPost img{
+    width: 100% !important ;
+}
+img {
+    filter: blur(0);
+    -webkit-filter: blur(0);
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    will-change: transform;
+    image-rendering : -webkit-optimize-contrast ;
+}

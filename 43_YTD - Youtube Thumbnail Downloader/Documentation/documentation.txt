@@ -1,0 +1,31 @@
+
+****************************** This script is very very simple to setup *************************************
+
+Step : 1 => Unzip the downloaded folder and Open Upload folder
+
+Step : 2 => Open setup.php in any text editor like Notepad++, Dreamweaver or Brackets
+
+Step : 3 => Change according to your need and in your language like Button Text etc.
+
+Step : 4 => Ad Setup => Open 3 Files i.e. ad_desktop_leftside.php , ad_desktop_rightside.php & ad_mobile.php 
+
+Step : 5 => Desktop Ad : 300 x 600 Pixel : Paste Google Ad Javascript code in ad_desktop_leftside.php & ad_desktop_rightside.php for Desktop Ad
+
+Step : 6 => Mobile Ad : 300 x 50 Pixel : Paste Google Ad Javascript code in ad_mobile.php 
+
+****************************** Change Placeholder of Input Box *************************************
+
+Step : 1 => Open js folder => after open custom.js file any text editor like Notepad++, Dreamweaver or Brackets
+
+Step : 2 => On Line number 6 i.e. 
+const words = ["Enter Youtube Link...",
+  "https://www.youtube.com/watch?v=9FDuUd39NOI"
+];
+
+Change anything inside double inverted comma " " example : "Enter Youtube Link..." 
+
+Step : 3 => Save and Done.
+
+********* ALL Done **********
+
+********************* Many Many Thanks for Purchasing This Script *******************************************

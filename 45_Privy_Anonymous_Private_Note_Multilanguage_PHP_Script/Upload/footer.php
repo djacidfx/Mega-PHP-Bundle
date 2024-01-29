@@ -1,0 +1,1 @@
+<div class="<?php echo colormode('bg_color') ; ?> <?php echo colormode('border_top') ; ?> text-muted text-center fixed-bottom p-2"><span><?php echo userlang('copyright_heading'); ?> &copy; <?php echo date("Y"); ?> <b class="<?php echo colormode('default_text') ; ?>"><?php echo COPYRIGHT_NAME ; ?></b> . <?php echo userlang('all_right_reserved') ; ?></span></div>

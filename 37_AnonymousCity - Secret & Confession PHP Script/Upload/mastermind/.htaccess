@@ -1,0 +1,25 @@
+RewriteEngine On
+
+RewriteRule ^dashboard?$ admin_dashboard.php
+RewriteRule ^settings?$ admin_setting.php
+RewriteRule ^signout?$ admin_logout.php
+RewriteRule ^verify?$ verify_adminlogin.php
+RewriteRule ^createads?$ create_ad.php
+RewriteRule ^action?$ admin_actions.php
+RewriteRule ^blockedusers?$ user_blocked.php
+RewriteRule ^fetchallblocked?$ fetch_user_blocked.php
+RewriteRule ^totalpost?$ user_posts.php
+RewriteRule ^fetchallpost?$ fetch_user_allposts.php
+RewriteRule ^postseen?$ user_posts_seen.php
+RewriteRule ^fetchallpostseen?$ fetch_user_allposts_seen.php
+RewriteRule ^postunseen?$ user_posts_unseen.php
+RewriteRule ^fetchallpostunseen?$ fetch_user_allposts_unseen.php
+RewriteRule ^featuredposts?$ user_posts_featured.php
+RewriteRule ^fetchallpostfeatured?$ fetch_user_allposts_featured.php
+RewriteRule ^trendingposts?$ user_posts_trending.php
+RewriteRule ^fetchallposttrending?$ fetch_user_allposts_trending.php
+RewriteRule ^edit?$ view_edit_post.php
+RewriteRule ^unseencomments?$ unseen_comments.php
+RewriteRule ^grabunseencomments?$ grab_unseen_comments.php
+RewriteRule ^seencomments?$ seen_comments.php
+RewriteRule ^grabseencomments?$ grab_seen_comments.php

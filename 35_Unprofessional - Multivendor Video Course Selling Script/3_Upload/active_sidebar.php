@@ -1,0 +1,30 @@
+<?php
+    $dashboard = "" ;
+    $home = "";
+    $upload = "" ;
+    $review = "";
+    $hardReject = "" ;
+    $softReject = "" ;
+    $new = "" ;
+    $featured = "" ;
+    $trending = "" ;
+    $bestseller = "" ;
+    $sortby = "" ;
+    $lowtohigh = "" ;
+    $hightolow = "" ;
+    $ratingby = "" ;
+    $abovefourfive = "" ;
+    $abovefourstar = "" ;
+    $abovethreestar = "" ;
+    $abovetwostar = "" ;
+    $aboveonestar = "" ;
+    $categoryby = "" ;
+    $catActive = "" ;
+    $badges = "" ;
+    $pending = "" ;
+    $activeItem = "" ;
+    $pausedItem = "" ;
+    $deletedItem = "" ;
+    $updateStatus = "" ;
+    $refundRequest = "" ;
+?>

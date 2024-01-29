@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteRule ^sitemap\.xml/?$ sitemap.php
+RewriteRule ^control?$ actions.php
+RewriteRule ^notforyou?$ block_msg.php
+RewriteRule ^slam/([^/\.]+)/([^/\.]+)?$ user_slams.php?id=$1&username=$2
+RewriteRule ^answer/([^/\.]+)/([^/\.]+)?$ user_slambook_answers.php?id=$1&username=$2

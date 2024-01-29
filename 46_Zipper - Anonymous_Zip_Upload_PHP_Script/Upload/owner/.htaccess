@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteRule ^control?$ owner_actions.php
+RewriteRule ^login?$ verify_ownerlogin.php
+RewriteRule ^logout?$ owner_logout.php
+RewriteRule ^dashboard?$ owner_dashboard.php
+RewriteRule ^notes?$ total_notes.php
+RewriteRule ^view_notes?$ fetch_notes.php
+RewriteRule ^unread?$ total_unreadnotes.php
+RewriteRule ^notes_unread?$ fetch_unreadnotes.php
+RewriteRule ^read?$ total_readnotes.php
+RewriteRule ^notes_read?$ fetch_readnotes.php
+RewriteRule ^blocked?$ total_blocked.php
+RewriteRule ^ipblock?$ fetch_blocked.php
+RewriteRule ^download?$ get_download.php

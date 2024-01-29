@@ -1,0 +1,9 @@
+User-agent: *
+
+Disallow: /owner/*
+Disallow: /language/*
+Disallow: /mode/*
+Disallow: /js/*
+Disallow: /css/*
+Disallow: /img/*
+Disallow: /config/*

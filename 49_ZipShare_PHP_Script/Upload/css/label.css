@@ -1,0 +1,11 @@
+.card {
+  position:relative;
+}
+  
+.card .card-badge {
+  position:absolute;
+  top:10px;
+  left:-10px;
+  padding:7px;
+  transform:rotate(-20deg);
+}

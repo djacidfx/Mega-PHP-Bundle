@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>TwoFactor Email Auth - Documentation</title>
+
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" href="css/lightbox.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+
+</head>
+
+<body>
+<div class="page-wrapper chiller-theme toggled">
+  <a id="show-sidebar" class="btn btn-sm btn-dark" href="#/">
+    <i class="fas fa-bars"></i>
+  </a>
+  <nav id="sidebar" class="sidebar-wrapper">
+    <div class="sidebar-content">
+      <div class="sidebar-brand">
+        <a href="index.html"><span> <img src="images/siteLogo.png" width="100%" alt="Logo"> </span></a>
+        <div id="close-sidebar">
+          <i class="fas fa-times"></i>
+        </div>
+      </div>
+      <div class="sidebar-header">
+        <div class="user-pic">
+           <i class="fa fa-file fa-2x text-white"></i>
+        </div>
+        <div class="user-info">
+          <span class="user-name">
+           <strong>Documentation</strong>
+          </span>
+        </div>
+      </div>
+     
+      <div class="sidebar-menu">
+        <ul>
+		  <li class="sidebar-dropdown">
+            <a href="#/">
+              <i class="fa fa-arrow-circle-right"></i>
+              <span>General</span>
+            </a>
+            <div class="sidebar-submenu">
+              <ul>
+			  	<li>
+					<a href="#info">
+					Info
+					</a>
+				</li>
+				<li>
+					<a href="#overview">
+					Overview
+					</a>
+				</li>
+				<li>
+					<a href="#features">
+					Features
+					</a>
+				</li>
+				<li>
+					<a href="#requirement">
+					Requirement
+					</a>
+				</li>
+				<li>
+					<a href="#configuration">
+					Configuration
+					</a>
+				</li>
+				<li>
+					<a href="#admindetails">
+					Admin Details
+					</a>
+				</li>
+               </ul>
+            </div>
+          </li>
+          
+        </ul>
+		<ul>
+		  <li class="header-menu">
+            <span>Features</span>
+          </li>
+          <li>
+		  	<a href="#activeuser">
+              <i class="fa fa-ban"></i>
+              <span>Activate / Deactivate</span>
+            </a>
+		  </li>
+		  <li>
+		  	<a href="#adminsetting">
+		  	  <i class="fa fa-cog"></i>
+              <span>Admin Credential</span>
+            </a>
+		  </li>
+		  <li>
+		  	<a href="#registration">
+              <i class="fa fa-user-plus"></i>
+              <span>Registration</span>
+            </a>
+		  </li>
+		   <li>
+		  	<a href="#login">
+              <i class="fa fa-id-badge"></i>
+              <span>Login</span>
+            </a>
+		  </li>
+		  <li>
+		  	<a href="#userdetail">
+              <i class="fa fa-info"></i>
+              <span>User Details</span>
+            </a>
+		  </li>
+		  <li>
+		  	<a href="#usermobile">
+              <i class="fa fa-envelope"></i>
+              <span>User Email</span>
+            </a>
+		  </li>
+		  <li>
+		  	<a href="#userpassword">
+              <i class="fa fa-key"></i>
+              <span>User Password</span>
+            </a>
+		  </li>
+		  <li>
+		  	<a href="#forgotpassword">
+              <i class="fa fa-key"></i>
+              <span>Forgot Password</span>
+            </a>
+		  </li>
+        </ul>
+      </div>
+      <!-- sidebar-menu  -->
+    </div>
+    <!-- sidebar-content  -->
+    <div class="sidebar-footer">
+      <a href="index.html">
+        <i class="fa fa-arrow-circle-up"></i>
+        <span class="badge-sonar"></span>
+      </a>
+    </div>
+  </nav>
+  <!-- sidebar-wrapper  -->
+   <main class="page-content">
+    <div class="container-fluid">
+      
+      <div class="row">
+		   <div class="col-lg-12 col-md-12">
+		   	  <div class="row">
+		   		<!--Info-->
+				<div class="col-md-12 col-lg-12 border border-default" id="info">
+					<h2>Info</h2>
+				  	<hr>
+					<h3>Two Factor Email Authentication</h3>
+					<h4>Email Login & Registration via Password & OTP.
+					<br>
+					<br>
+					<p class="myFont"><b>Author :</b> yupok</p>
+					<p class="myFont"><b>Create Date :</b> 20-04-2020</p>
+					<p class="myFont"><b>Support :</b> yupokteam@gmail.com</p>
+				</div>
+				<!--Overview-->
+				<div class="col-md-12 col-lg-12 border border-default myDiv" id="overview">
+					<h2>Overview</h2>
+				  	<hr>
+					<p class="myFont">TwoFactor Authentication is a complete and responsive feature with Login & Registration for your online business. This will help your customers to easy Login or Registration with Password & OTP. OTP verification adds an extra layer security.</p>
+					<p class="myFont">This feature has an attractive front end and back end interface that are really awesome and eyecatching. Almost all kinds of changes are possible to do using the admin panel without having any kind or programming language knowledge.</p>
+					<p class="myFont">It is built using the procedural php (with PDO feature) and without any framework. For this reason, it can be customized easily by most of the developers and create own websites with this awesome feature.</p>
+					<p class="myFont"><b>Security : </b>It is protected against SQL injection, XSS and other attack and your website will be safe.</p>
+				</div>
+				<!--Features-->
+				<div class="col-md-12 col-lg-12 border border-default myDiv" id="features">
+					<h2>Features</h2>
+				  	<hr>
+					<ul class="myFont">
+						<li>Activate/Deactivate User with Single Click.</li>
+						<li>Live Search User</li>
+						<li>Update Admin Credentials.</li>
+						<li>Login with Password & OTP on Email.</li>
+						<li>Registration with Password & OTP on Email.</li>
+						<li>Recover Password via OTP.</li>
+						<li>Strong Password Validation.</li>
+						<li>Update Name & Address.</li>
+						<li>Update Email via OTP after Login.</li>
+						<li>Update New Password via OTP, No need to remember Old Password.</li>
+						<li>Deactivated User cannot Login, If User logged in, Automatically logout from website when click on any option</li>
+					</ul>
+				</div>
+				<!--Requirements-->
+				<div class="col-md-12 col-lg-12 border border-default myDiv" id="requirement">
+					<h2>Requirements</h2>
+				  	<hr>
+					<h5>Before starting to install, make sure you fulfill the following requirements:</h5>
+					<ul class="myFont">
+						<li>For Local Server installation, This script will not work in Localhost.</li>
+						<li>You can use this script on any Live Server.</li>
+						<li>Required PHP version in server >= 5.4.</li>
+						<li>PDO & Mail must be enabled in the server.</li>
+					</ul>
+				</div>
+				<!--Configuration-->
+				<div class="col-md-12 col-lg-12 border border-default myDiv" id="configuration">
+					<h2>Configuration</h2>
+				  	<hr>
+					<h5>Note:This is very important, Please follow all the instructions carefully otherwise Script will not work.</h5>
+					<ul class="myFont">
+						<li>Step :1) Go to uploads folder in which zip file named twofactoremail and then extract it.</li>
+						<li>Click on the image to view</li>
+						<a href="images/extract_zip.png" data-lightbox="example-1"><img class="img-thumbnail" src="images/extract_zip.png" alt=""></a>
+						<li>Step :2) After Extracting you will get twofactoremail Folder.</li>
+						<li>Click on the image to view</li>
+						<a href="images/twofactoremail_folder.png" data-lightbox="example-1"><img class="img-thumbnail" src="images/twofactoremail_folder.png" alt=""></a>
+						<li>Step :3) Open twofactoremail Folder, You will see all the script files & folders.</li>
+						<li>Click on the image to view</li>
+						<a href="images/main_folder.png" data-lightbox="example-1"><img class="img-thumbnail" src="images/main_folder.png" alt=""></a>
+						<li>Step :4) Open admin Folder, where you see db folder.</li>
+						<li>Click on the image to view</li>
+						<a href="images/db_folder.png" data-lightbox="example-1"><img class="img-thumbnail" src="images/db_folder.png" alt=""></a>
+						<li>Step :5) Open db Folder, where you see <b>config.php</b> file.</li>
+						<li>Step :6) Open <b>config.php</b> file with any text editor like Notepad++, Dreamweaver, etc.</li>
+						<li>Click on the image to view</li>
+						<a href="images/config.png" data-lightbox="example-1"><img class="img-thumbnail" src="images/config.png" alt=""></a>
+						<li>Step :7)<b>config.php</b> file contains very important configuration settings. You must have to edit those properly.</li>
+						<ul>
+							<li><b>Hostname:</b>This is your database hostname.</li>
+							<li><b>Database Name :</b>This is your database name.</li>
+							<li><b>Database Username:</b>This is your Username for the database you created.</li>
+							<li><b>Database Password:</b>This is your Password for the database you created.</li>
+						</ul>
+						<li>Click on the image to view</li>
+						<a href="images/config_editfile.png" data-lightbox="example-1"><img class="img-thumbnail" src="images/config_editfile.png" alt=""></a>
+					</ul>
+				</div>
+				<!--Admin Details-->
+				<div class="col-md-12 col-lg-12 border border-default myDiv" id="admindetails">
+					<h2>Admin Details</h2>
+				  	<hr>
+					<h5>After you setup the script successfully on your web server, you can login to the admin panel using the information below:</h5>
+					<ul class="myFont">
+						<li><b>Email:</b>no-reply@yupok.com</li>
+						<li><b>Password:</b>123456</li>
+						<li><b>You can change admin details anytime. After you login click on the bottom of setting icon.</b></li>
+						<li>Click on the image to view</li>
+						<a href="images/11_admin_login.png" data-lightbox="example-1"><img class="img-thumbnail" src="images/11_admin_login.png" alt=""></a>
+					</ul>
+				</div>
+				<!--Manage User-->
+				<div class="col-md-12 col-lg-12 border border-default myDiv" id="activeuser">
+					<h2>Activate / Deactivate User</h2>
+				  	<hr>
+					<ul class="myFont">
+						<li>Search User Name/Email/Anything which you want to Activate/Deactivate.</li>
+						<li>Click on Active/Deactivate.</li>
+						<li>A pop up shows which ask you Do you want to change User Status click yes and you are done.</li>
+						<li>Deactivated User cannot Login, If User logged in, Automatically logout from website when click on any option</li>
+						<li>Anytime you can change status of Customer i.e. Active or Deactive.</li>
+						<a href="images/13_admin_user.png" data-lightbox="example-1"><img class="img-thumbnail" src="images/13_admin_user.png" alt=""></a>
+						&ensp;
+						<a href="images/13_admin_user_1.png" data-lightbox="example-1"><img class="img-thumbnail" src="images/13_admin_user_1.png" alt=""></a>
+						&ensp;
+						<a href="images/13_admin_user_2.png" data-lightbox="example-1"><img class="img-thumbnail" src="images/13_admin_user_2.png" alt=""></a>
+					</ul>
+				</div>
+				<!--Update Admin Credential-->
+				<div class="col-md-12 col-lg-12 border border-default myDiv" id="adminsetting">
+					<h2>Update Admin Details</h2>
+				  	<hr>
+					<h5 class="myFont">Clicking on Setting Icon on the Bottom a page appears where Admin can change their Name, Email & Password</h5>
+					<ul class="myFont">
+						<li><b>Note: Old Password is mandatory to Update anything. </b></li>
+						<a href="images/12_admin_setting.png" data-lightbox="example-1"><img class="img-thumbnail" src="images/12_admin_setting.png" alt=""></a>
+					</ul>
+				</div>
+				<!--User Registration-->
+				<div class="col-md-12 col-lg-12 border border-default myDiv" id="registration">
+					<h2>User Registration</h2>
+				  	<hr>
+					<ul class="myFont">
+						<li>Fill all the details and click on SignUp.</li>
+						<li>User redirect on that page where user Email will show and must have to verify OTP.</li>
+						<li>After verification of OTP user successfully registered and redirect on Dashboard.</li>
+						<li><b>Note: Validating Email before Registration whether its Regsitered or not or deactive by admin.</b></li>
+						<a href="images/2_signup.png" data-lightbox="example-1"><img class="img-thumbnail" src="images/2_signup.png" alt=""></a>
+						&ensp;
+						<a href="images/4_verify_otp.png" data-lightbox="example-1"><img class="img-thumbnail" src="images/4_verify_otp.png" alt=""></a>
+						&ensp;
+						<a href="images/5_user_dashboard.png" data-lightbox="example-1"><img class="img-thumbnail" src="images/5_user_dashboard.png" alt=""></a>
+					</ul>
+				</div>
+				<!--User Login-->
+				<div class="col-md-12 col-lg-12 border border-default myDiv" id="login">
+					<h2>User Login</h2>
+				  	<hr>
+					<h5 class="myFont">Login via Password & OTP.</h5>
+					<ul class="myFont">
+						<li>Enter Email & Password & OTP will delivered to your Email.</li>
+						<li>After User verifies OTP successfully they redirect on to the Dashboard.</li>
+						<a href="images/1_login.png" data-lightbox="example-1"><img class="img-thumbnail" src="images/1_login.png" alt=""></a>
+						&ensp;
+						<a href="images/4_verify_otp.png" data-lightbox="example-1"><img class="img-thumbnail" src="images/4_verify_otp.png" alt=""></a>
+						&ensp;
+						<a href="images/5_user_dashboard.png" data-lightbox="example-1"><img class="img-thumbnail" src="images/5_user_dashboard.png" alt=""></a>
+					</ul>
+				</div>
+				<!--Update User Details-->
+				<div class="col-md-12 col-lg-12 border border-default myDiv" id="userdetail">
+					<h2>Update User Details</h2>
+				  	<hr>
+					<h5 class="myFont">User can update their details by Clicking on Manage Details Option.</h5>
+					<ul class="myFont">
+						<li><b>After fill all the details just click on Save button.</b></li>
+						<a href="images/6_user_detail.png" data-lightbox="example-1"><img class="img-thumbnail" src="images/6_user_detail.png" alt=""></a>
+					</ul>
+				</div>
+				<!--Update User Mobile-->
+				<div class="col-md-12 col-lg-12 border border-default myDiv" id="usermobile">
+					<h2>Update User Email</h2>
+				  	<hr>
+					<h5 class="myFont">User can update their Mobile by Clicking on Manage Email Option.</h5>
+					<ul class="myFont">
+						<li><b>If Email is already registered it shows an Error.</b></li>
+						<li><b>If Email is not registered OTP will deliver to Email & Verify that. After verification Users Email will be updated.</b></li>
+						<a href="images/7_manage_email.png" data-lightbox="example-1"><img class="img-thumbnail" src="images/7_manage_email.png" alt=""></a>
+						&ensp;
+						<a href="images/7_manage_email_1.png" data-lightbox="example-1"><img class="img-thumbnail" src="images/7_manage_email_1.png" alt=""></a>
+						&ensp;
+						<a href="images/9_update_otp.png" data-lightbox="example-1"><img class="img-thumbnail" src="images/9_update_otp.png" alt=""></a>
+						&ensp;
+						<a href="images/9_update_otp_1.png" data-lightbox="example-1"><img class="img-thumbnail" src="images/9_update_otp_1.png" alt=""></a>
+						&ensp;
+						<a href="images/7_manage_email_2.png" data-lightbox="example-1"><img class="img-thumbnail" src="images/7_manage_email_2.png" alt=""></a>
+					</ul>
+				</div>
+				<!--Update User Mobile-->
+				<div class="col-md-12 col-lg-12 border border-default myDiv" id="userpassword">
+					<h2>Update User Password</h2>
+				  	<hr>
+					<h5 class="myFont">Sometimes user saves the password in browser, so we used verification of OTP that adds an extra layer security to users. No need to remember Old Password.</h5>
+					<ul class="myFont">
+						<li><b>Registered Email shows on Update Password Page press Continue.</b></li>
+						<li><b>An OTP delivered to Email, after successfully verification a page will appear for change the password.</b></li>
+						<a href="images/10_manage_password.png" data-lightbox="example-1"><img class="img-thumbnail" src="images/10_manage_password.png" alt=""></a>
+						&ensp;
+						<a href="images/10_manage_password_1.png" data-lightbox="example-1"><img class="img-thumbnail" src="images/10_manage_password_1.png" alt=""></a>
+						&ensp;
+						<a href="images/10_manage_password_3.png" data-lightbox="example-1"><img class="img-thumbnail" src="images/10_manage_password_3.png" alt=""></a>
+						&ensp;
+						<a href="images/10_manage_password_4.png" data-lightbox="example-1"><img class="img-thumbnail" src="images/10_manage_password_4.png" alt=""></a>
+						&ensp;
+						<a href="images/10_manage_password_5.png" data-lightbox="example-1"><img class="img-thumbnail" src="images/10_manage_password_5.png" alt=""></a>
+					</ul>
+				</div>
+				<!--Update User Mobile-->
+				<div class="col-md-12 col-lg-12 border border-default myDiv" id="forgotpassword">
+					<h2>Forgot Password</h2>
+				  	<hr>
+					<h5 class="myFont">Forgot password option is Upperhand for your website.</h5>
+					<ul class="myFont">
+						<li><b>Just Click on Forgot Password Link on Login Page.</b></li>
+						<li><b>Enter Registered Email.</b></li>
+						<li><b>Verify OTP.</b></li>
+						<li><b>Enter New Password and Done.</b></li>
+						<a href="images/3_forgot_password.png" data-lightbox="example-1"><img class="img-thumbnail" src="images/3_forgot_password.png" alt=""></a>
+					</ul>
+				</div>
+				<!--copyright footer-->
+				<div class="col-md-12 col-lg-12 border border-default myDiv">
+					<h4>Copyright &#xA9; yupok</h4>
+				  	<hr>
+					<h5 class="myFont">You are not allowed to use this documentation template for your personal or commercial or any other purposes.</h5>
+				</div>
+				
+			  </div>
+		   </div>
+	  </div>
+    </div>
+
+  </main>
+  <!-- page-content" -->
+  </div>
+
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/lightbox.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+
+
+</body>
+</html>
+ 

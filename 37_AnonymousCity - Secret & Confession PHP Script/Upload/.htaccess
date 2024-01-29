@@ -1,0 +1,15 @@
+RewriteEngine On
+RewriteRule ^sitemap\.xml/?$ sitemap.php
+RewriteRule ^sharesecret?$ create_post.php
+RewriteRule ^control?$ actions.php
+RewriteRule ^featured?$ featured_posts.php
+RewriteRule ^trending?$ trending_posts.php
+RewriteRule ^new?$ new_posts.php
+RewriteRule ^notforyou?$ block_msg.php
+RewriteRule ^secret/([^/\.]+)/([^/\.]+)?$ posts.php?id=$1&title=$2
+RewriteRule ^grabcomments?$ grab_more_comments.php
+RewriteRule ^grabmorefeatured?$ grab_more_featured_post.php
+RewriteRule ^grabmoretrending?$ grab_more_trending_post.php
+RewriteRule ^grabmorenew?$ grab_more_new_post.php
+RewriteRule ^search?$ user_search.php
+RewriteRule ^grabsearch?$ grab_more_search.php

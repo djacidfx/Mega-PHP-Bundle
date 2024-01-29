@@ -1,0 +1,7 @@
+RewriteEngine On
+#RewriteRule ^sitemap\.xml/?$ sitemap.php
+RewriteRule ^control?$ actions.php
+RewriteRule ^notforyou?$ blockedpage.php
+RewriteRule ^note/([^/\.]+)?$ url.php?uniqueid=$1
+RewriteRule ^make_zip?$ userupload.php
+RewriteRule ^download?$ user_get_file.php

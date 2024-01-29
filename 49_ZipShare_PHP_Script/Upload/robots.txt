@@ -1,0 +1,12 @@
+User-agent: *
+
+Disallow: /master/*
+Disallow: /language/*
+Disallow: /mode/*
+Disallow: /js/*
+Disallow: /css/*
+Disallow: /img/*
+Disallow: /config/*
+Disallow: /blogimages/*
+Disallow: /tinymce/*
+Disallow: /zipfiles/*

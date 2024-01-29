@@ -1,0 +1,16 @@
+RewriteEngine On
+
+RewriteRule ^dashboard?$ admin_dashboard.php
+RewriteRule ^settings?$ admin_setting.php
+RewriteRule ^signout?$ admin_logout.php
+RewriteRule ^action?$ admin_actions.php
+RewriteRule ^verify?$ verify_adminlogin.php
+RewriteRule ^questions?$ admin_quest.php
+RewriteRule ^fetchallquestion?$ fetch_all_questions.php
+RewriteRule ^slams?$ admin_user_slams.php
+RewriteRule ^fetchallslams?$ fetch_all_slams.php
+RewriteRule ^answers?$ admin_user_answers.php
+RewriteRule ^fetchallanswers?$ fetch_all_answers.php
+RewriteRule ^blockedusers?$ user_blocked.php
+RewriteRule ^fetchallblocked?$ fetch_user_blocked.php
+RewriteRule ^createads?$ create_ad.php

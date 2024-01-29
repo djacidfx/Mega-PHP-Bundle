@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteRule ^control?$ action.php
+RewriteRule ^pk?$ payment.php
+RewriteRule ^success?$ paysuccess.php

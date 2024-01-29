@@ -1,0 +1,22 @@
+
+Step 1 : Open Upload Folder
+
+Step 2 : Open setup.php in any text editor like Notepad++, Dreamweaver or any file editor
+
+Step 3 : Change carefully according to your need 
+
+
+===============>  What you can change ?  <====================
+
+1) Website URL means Base URL
+2) Website META Title 
+3) Website META Description
+4) Index Page Placeholder Line
+5) Index Page Website Heading
+6) Footer Copyright Name
+
+Step 4 : Google Ad [ Open index.php ] => You will find 3 comments for placing javascript code for google ads [ 2 Desktop Ads and 1 Mobile responsive ad. ]
+
+Done.
+
+Many thanks for purchasing this script. Good Luck 

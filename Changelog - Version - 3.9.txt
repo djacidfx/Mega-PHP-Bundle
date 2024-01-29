@@ -1,0 +1,157 @@
+Changelog V-3.9, 14th October 2022
+1. Added 49th Script - ZipShare - Anonymous Zip Sharing PHP Script
+
+Changelog V-3.8, 2nd September 2022
+1. Added 48th Script - Secure Password Generator PHP Script without database
+
+Changelog V-3.7, 17th June 2022
+1. Added 47th Script - Locky - PHP Page Locker Script without database
+
+Changelog V-3.6, 3rd June 2022
+1. Added 46th Script - Zipper - Anonymous Private Zip Uploader PHP Script
+
+Changelog V-3.5, 11th May 2022
+1. Added 45th Script - Privy - Anonymous Private Note Multilanguage PHP Script
+
+Changelog V-3.4, 24th April 2022
+1. Added 44th Script - Promo - Anonymous Website Promotion PHP Script
+
+Changelog V-3.3, 15th March 2022
+1. Added 43rd Script - YTD - Youtube Thumbnail Downloader PHP Script
+
+Changelog V-3.2, 26th January 2022
+1. Added 42nd Script - Linky - URL Shortener PHP Script
+
+Changelog V-3.1, 10th January 2022
+1. Added 41st Script - MyIp - IP Location Finder PHP Script
+
+Changelog V-3.0, 28th October 2021
+1. Added 40th Script - WC - WordCounter PHP Script
+
+Changelog V-2.9, 11th October 2021
+1. Added 39th Script - Paypo - Paypal Donation PHP Script
+
+Changelog V-2.8, 28th September 2021
+1. Update 29th Script - Anonymous Post PHP Script to Version 1.5
+==> Removed Single Featured Post
+==> Added Unlimited Featured Post (Manually by Admin Panel)
+==> Removed Automatic Trending Post
+==> Added Unlimited Trending Post (Manually by Admin Panel)
+==> New - Added Popular Post (Manually by Admin Panel)
+==> Added Different Section for Featured, Trending & Popular Posts in Admin Section
+==> Fixing some major bugs
+
+Changelog V-2.7, 26th August 2021
+1. Added 38th Script - LoveSlam - Slambook Fun PHP Script
+
+Changelog V-2.6, 19th August 2021
+1. Added 37th Script - AnonymousCity - Secrets & Confessions PHP Script
+
+Changelog V-2.5, 6th August 2021
+1. Added 36th Script - Donato - Stripe Donation PHP Script
+
+Changelog V-2.4, 7th July 2021
+1. Added 35th Script - Unprofessional - Multivendor Video Course Selling PHP Script
+
+Changelog V-2.3, 6th July 2021
+1. Update 34th Script - Dark Blog RSS PHP Script from Version 1.0 to Version 1.1 (Added Comment & Many More)
+
+Changelog V-2.2, 31st March 2021
+1. Update 29th Script - Anonymous Post PHP Script to Version 1.4 ( Added Google ReCaptcha )
+2. Update 33rd Script - Anonymous Post Image PHP Script to Version 1.2 ( Added Google ReCaptcha )
+
+
+Changelog V-2.1, 28th March 2021 - Added 34th PHP Script
+
+1. Dark Blog RSS PHP Script 
+
+
+
+Changelog V-2.0, 22nd May 2021 - Added 33rd PHP Script & Updating 29th Script - Anonymous Post PHP Script from Version 1.2 to 1.3
+
+1. Added 33rd PHP Script - Anonymous Post Image PHP Script 
+2. Updating 29th Script - Anonymous Post PHP Script from Version 1.2 to 1.3 i.e. Added Sitemap
+
+
+
+Changelog V-1.9, 30th March 2021 - Added 32nd PHP Script
+
+1. Twofactor Email Login & Registration via OTP 
+
+
+
+
+
+
+Changelog V-1.8, 20th Feb 2021 - Added 31th PHP Script
+
+1. Bitcoin Calculator - Supports 200+ Currencies 
+
+
+
+
+
+
+Changelog V-1.7, 10th Feb 2021 - Added 30th PHP Script
+
+1. FaceMash Pro - Vote Battle PHP Script
+
+
+
+
+
+
+Changelog V-1.6, 1st Feb 2021 - Update 29th PHP Script
+
+1. Updated Anonymous Post PHP Script from Version 1.1 to Version 1.2
+
+
+
+
+
+
+Changelog V-1.5, 26th Jan 2021 - Adding Anonymous Post PHP Script
+
+1. Added Anonymous Post PHP Script 
+
+
+
+
+
+
+Changelog V-1.4, 14th Jan 2021 - Adding 1 PHP Script
+
+1. Added Music Junction - Music Player Website Script 
+
+
+
+
+
+
+Changelog V-1.3, 9th Jan 2021 - Adding 4 PHP Script
+
+1. Added 4 More PHP Scripts in this Bundle.
+2. Added 2FA Login Signup via OTP & Many SMS Gateways, Official announcement without SaaS, Login Signup Contact Form with Admin Panel & Stripe Pay for PHP Developers
+3. 27 PHP Scripts in this Bundle.
+
+
+
+
+
+
+
+Changelog V-1.2, 7th Jan 2021 - Adding 4 PHP Script
+
+1. Added 2FA Clickatell, 2FA MSG91, Encode & Decode Link or Text , Tax Calculator Scripts are added.
+2. More PHP Scripts will be added from time to time in this bundle
+
+
+
+
+
+
+Changelog V-1.1, 6th Jan 2021 - Adding 7 PHP Script
+
+1. Added DigiPaypal, Digisell, Instagram Announcement, Youtube Announcement, Facebook Announcement, Login & Registration via jQuery & Ajax , 2FA via TextLocal Sms gateway Scripts are added.
+2. More PHP Scripts will be added from time to time in this bundle
+

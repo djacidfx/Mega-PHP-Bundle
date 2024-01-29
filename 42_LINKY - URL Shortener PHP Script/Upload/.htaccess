@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteRule ^find?$ fetch.php
+RewriteRule ^link/([^/\.]+)?$ url.php?url=$1
